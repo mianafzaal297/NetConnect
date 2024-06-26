@@ -26,3 +26,12 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Interface
+![Welcome Page](https://github.com/mianafzaal297/NetConnect/assets/164647958/87b6e651-ba17-43e2-93cc-6b17a5d43efa)
+![Timeline Page](https://github.com/mianafzaal297/NetConnect/assets/164647958/57bb85e0-c492-495b-b249-05c427494353)
+![SignUp Page](https://github.com/mianafzaal297/NetConnect/assets/164647958/4c02812f-5123-4f65-96c4-1a1cac0bf9d9)
+![Post Creation Page](https://github.com/mianafzaal297/NetConnect/assets/164647958/6b8f9d8a-0827-437c-b5a1-6cee8bd76d6a)
+![LogIn Page](https://github.com/mianafzaal297/NetConnect/assets/164647958/942eef3b-ed4c-41b7-9e3f-f6d37a21af75)
+![Friend Page](https://github.com/mianafzaal297/NetConnect/assets/164647958/019351dc-e879-4262-a0f1-87fadc36e108)
+![Profile Page](https://github.com/mianafzaal297/NetConnect/assets/164647958/1e6505c8-d516-4a25-bb71-a3949b85c5e8)
