@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="426.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netconnect.friendController">
+   <children>
+      <SplitPane dividerPositions="0.5201005025125628" orientation="VERTICAL" prefHeight="400.0" prefWidth="426.0" style="-fx-background-color: DarkGrey;">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="109.0" prefWidth="312.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-14.0" layoutY="-4.0" prefHeight="31.0" prefWidth="439.0" style="-fx-background-color: Black;" text="RECENTLY ADDED FRIEND" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ListView fx:id="listView" layoutY="26.0" prefHeight="188.0" prefWidth="424.0" />
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="149.0" prefWidth="424.0">
+               <children>
+                  <TextField fx:id="friendUsername" layoutX="68.0" layoutY="74.0" prefHeight="25.0" prefWidth="196.0" promptText="ENTER USERNAME">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="addButton" layoutX="264.0" layoutY="74.0" mnemonicParsing="false" onAction="#addFriend" style="-fx-background-color: Black;" text="ADD" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Italic" size="12.0" />
+                     </font></Button>
+                  <Label fx:id="addLabel" layoutX="66.0" layoutY="120.0" text=" " textFill="RED">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-4.0" prefHeight="25.0" prefWidth="426.0" style="-fx-background-color: Black;" text="ADD NEW FRIEND" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

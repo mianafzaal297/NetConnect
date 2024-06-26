@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="first" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#setProfilePane" prefHeight="657.0" prefWidth="665.0" style="-fx-background-color: #1b9999;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netconnect.ProfileFirstPageController">
+    <top>
+        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="98.0" prefWidth="499.0" BorderPane.alignment="BOTTOM_CENTER">
+            <children>
+                <Group layoutX="76.0">
+                    <children>
+                        <ImageView fitHeight="72.0" fitWidth="97.0" layoutX="277.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Ic2.png" />
+                            </image>
+                        </ImageView>
+                        <Label alignment="CENTER_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="92.0" prefWidth="277.0" text=" NETCONNECT " textAlignment="CENTER">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Broadway" size="36.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Group>
+            </children>
+            <BorderPane.margin>
+                <Insets top="20.0" />
+            </BorderPane.margin>
+        </Pane>
+    </top>
+   <bottom>
+          <AnchorPane layoutX="164.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="53.0" prefWidth="422.0" style="-fx-background-color: DarkGrey;" BorderPane.alignment="TOP_CENTER">
+         <children>
+            <HBox alignment="CENTER" layoutX="-1.0" layoutY="15.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="424.0" spacing="8.0">
+               <children>
+                  <Button fx:id="profileButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#setProfilePane" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: Black;" text="Profile" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font></Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#setFriendPane" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: Black;" text="Friend" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font></Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#setPostPane" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: Black;" text="Post" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font></Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#setTimelinePane" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: Black;" text="Timeline" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font></Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" layoutX="173.0" layoutY="10.0" mnemonicParsing="false" onAction="#onSignoutButton" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: Black;" text="SignOut" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font></Button>
+               </children>
+               <opaqueInsets>
+                  <Insets left="5.0" />
+               </opaqueInsets>
+            </HBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="2.0" />
+         </BorderPane.margin>
+         <opaqueInsets>
+            <Insets left="2.0" />
+         </opaqueInsets>
+          </AnchorPane>
+   </bottom>
+   <padding>
+      <Insets bottom="5.0" />
+   </padding>
+</BorderPane>

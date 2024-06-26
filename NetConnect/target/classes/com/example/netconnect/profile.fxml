@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="426.0" style="-fx-background-color: DarkGrey;" styleClass="Label" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netconnect.profileController">
+   <children>
+      <GridPane alignment="CENTER" gridLinesVisible="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="426.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="295.0" minWidth="10.0" prefWidth="113.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="512.0" minWidth="10.0" prefWidth="337.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Name" />
+            <Label text="Username" GridPane.rowIndex="1" />
+            <Label text="Mail" GridPane.rowIndex="2" />
+            <Label text="Phone" GridPane.rowIndex="3" />
+            <Label text="Date of Birth" GridPane.rowIndex="4" />
+            <Label text="Gender" GridPane.rowIndex="5" />
+            <Label text="Merital Status" GridPane.rowIndex="6" />
+            <Label text="Address" GridPane.rowIndex="7" />
+            <Label text="Nationality" GridPane.rowIndex="8" />
+            <Label fx:id="name" text=" " GridPane.columnIndex="1">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="username" text=" " GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="mail" text=" " GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="phone" text=" " GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="DoB" text=" " GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="gender" text=" " GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="merital" text=" " GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="address" text=" " GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="nationality" text=" " GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font></Label>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Glow />
+               </bumpInput>
+               <light>
+                  <Light.Spot>
+                     <color>
+                        <Color blue="0.2587719261646271" green="0.2587719261646271" red="0.7763158082962036" />
+                     </color>
+                  </Light.Spot>
+               </light>
+            </Lighting>
+         </effect>
+      </GridPane>
+   </children>
+</AnchorPane>

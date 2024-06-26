@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="426.0" style="-fx-background-color: DarkGrey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netconnect.postController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="6.0" prefHeight="31.0" prefWidth="426.0" style="-fx-background-color: Black;" text="CREATE NEW POST" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="postTextArea" layoutX="5.0" layoutY="83.0" prefHeight="189.0" prefWidth="417.0" />
+      <HBox layoutY="309.0" spacing="2.0">
+         <padding>
+            <Insets left="2.0" />
+         </padding>
+      </HBox>
+      <Button layoutX="8.0" layoutY="275.0" mnemonicParsing="false" onAction="#postButton" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: Black;" text="POST" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="15.0" />
+         </font></Button>
+      <Label fx:id="postLabelCheck" layoutX="76.0" layoutY="322.0" text=" " textFill="#722727">
+         <font>
+            <Font name="Bell MT Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

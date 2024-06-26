@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="first" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="665.0" style="-fx-background-color: #1b9999;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netconnect.signInController">
+    <top>
+        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="98.0" prefWidth="499.0" BorderPane.alignment="BOTTOM_CENTER">
+            <children>
+                <Group layoutX="76.0">
+                    <children>
+                        <ImageView fitHeight="72.0" fitWidth="97.0" layoutX="277.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Ic2.png" />
+                            </image>
+                        </ImageView>
+                        <Label alignment="CENTER_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="92.0" prefWidth="277.0" text=" NETCONNECT " textAlignment="CENTER">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Broadway" size="36.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Group>
+            </children>
+            <BorderPane.margin>
+                <Insets top="20.0" />
+            </BorderPane.margin>
+        </Pane>
+    </top>
+    <center>
+        <SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="315.0" prefWidth="319.0" BorderPane.alignment="TOP_CENTER">
+            <items>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="53.0" prefWidth="317.0" style="-fx-background-color: #1b9999;">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="17.0" prefWidth="317.0" text="LogIn Form" textAlignment="CENTER">
+                            <font>
+                                <Font name="Bell MT Italic" size="22.0" />
+                            </font>
+                  </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="254.0" prefWidth="317.0" style="-fx-background-color: DarkGrey;">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="21.0" prefHeight="17.0" prefWidth="323.0" text="Enter User Details" textAlignment="CENTER">
+                            <font>
+                                <Font name="Bell MT Bold" size="16.0" />
+                            </font>
+                        </Label>
+                        <Button layoutX="151.0" layoutY="196.0" mnemonicParsing="false" onAction="#onLogInButtonClick" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: black;" text="LOGIN" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font></Button>
+                        <Button layoutX="68.0" layoutY="196.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: Black;" text="BACK" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font></Button>
+                  <Label layoutX="36.0" layoutY="74.0" text="USERNAME">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font></Label>
+                  <Label layoutX="37.0" layoutY="131.0" text="PASSWORD">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font></Label>
+                  <TextField fx:id="username" layoutX="130.0" layoutY="70.0" />
+                  <PasswordField fx:id="password" layoutX="130.0" layoutY="127.0" />
+                  <Label fx:id="authenticationLabel" layoutX="80.0" layoutY="167.0" text=" " textFill="RED" />
+                    </children>
+                </AnchorPane>
+            </items>
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+        </SplitPane>
+    </center>
+</BorderPane>

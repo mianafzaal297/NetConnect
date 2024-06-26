@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="426.0" style="-fx-background-color: DarkGrey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netconnect.timelineController">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="6.0" prefHeight="31.0" prefWidth="426.0" style="-fx-background-color: Black;" text="YOUR TIMELINE" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Bell MT Bold" size="12.0" />
+            </font>
+        </Label>
+      <ListView fx:id="postListView" layoutX="6.0" layoutY="41.0" prefHeight="356.0" prefWidth="415.0" />
+    </children>
+</AnchorPane>
